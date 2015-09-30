@@ -1,0 +1,12 @@
+{application, nfq,
+ [
+  {description, "Simple NFQUEUE listener"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { nfq, []}},
+  {env, []}
+ ]}.
