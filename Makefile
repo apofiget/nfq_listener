@@ -1,4 +1,4 @@
-REBAR = ./rebar
+REBAR = `which rebar`
 
 compile:
 	@$(REBAR) get-deps
